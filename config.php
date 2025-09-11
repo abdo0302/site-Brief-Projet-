@@ -1,9 +1,9 @@
 <?php
 $host = '192.168.56.20'; 
 $port = 3306;
-$db   = 'demo_db';
+$db   = 'myapp';
 $user = 'root';
-$pass = 'admin123';
+$pass = 'Admin@12345';
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
 
